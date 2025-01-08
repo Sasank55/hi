@@ -214,125 +214,126 @@
 // }
 
 //switch case
-let day = 5;
-switch(day){
-    case 1:
-        console.log("Sunday");
-        break;
-    case 2:
-        console.log("Monday");
-        break;
-    case 3:
-        console.log("Tuesday");
-        break;
-    case 4:
-        console.log("Wednesday");
-        break;
-    case 5:
-        console.log("Thursday");
-        break;
-    case 6:
-        console.log("Friday");
-        break;
-    case 7:
-        console.log("Saturday");
-        break;
-    default:
-        console.log("Invalid day");
-        break;
-}
+// let day = 5;
+// switch(day){
+//     case 1:
+//         console.log("Sunday");
+//         break;
+//     case 2:
+//         console.log("Monday");
+//         break;
+//     case 3:
+//         console.log("Tuesday");
+//         break;
+//     case 4:
+//         console.log("Wednesday");
+//         break;
+//     case 5:
+//         console.log("Thursday");
+//         break;
+//     case 6:
+//         console.log("Friday");
+//         break;
+//     case 7:
+//         console.log("Saturday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+//         break;
+// }
 
-//write a program to check greatest number among 3 numbers
-let a = 20;
-let b = 30;
-let c = 40;
-if(a > b && a > c){
-    console.log("a is greatest");
-}else if(b > a && b > c){
-    console.log("b is greatest");
-}
-else{
-    console.log("c is greatest");
-}
+// //write a program to check greatest number among 3 numbers
+// let a = 20;
+// let b = 30;
+// let c = 40;
+// if(a > b && a > c){
+//     console.log("a is greatest");
+// }else if(b > a && b > c){
+//     console.log("b is greatest");
+// }
+// else{
+//     console.log("c is greatest");
+// }
 
-//do while
-let i = 1;
-do{
-    console.log(i);
-    i++;
-}
-while(i <= 10);
+// //do while
+// let i = 1;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i <= 10);
 
-//while
-let j = 1;
-while(j <= 10){
-    console.log(j);
-    j++;
-}
+// //while
+// let j = 1;
+// while(j <= 10){
+//     console.log(j);
+//     j++;
+// }
 
-//for
-for(let i = 1; i <= 10; i++){
-    console.log(i);
-}
+// //for
+// for(let i = 1; i <= 10; i++){
+//     console.log(i);
+// }
 
-//for of
-let arr = [10,20,30,40,50];
-for(let val of arr){
-    console.log(val);
-}
+// //for of
+// let arr = [10,20,30,40,50];
+// for(let val of arr){
+//     console.log(val);
+// }
 
-//for in
-let obj = {name:"Sasank",city:"Vij",salary:123456};
-for(let key in obj){
-    console.log(key,obj[key]);
-}
+// //for in
+// let obj = {name:"Sasank",city:"Vij",salary:123456};
+// for(let key in obj){
+//     console.log(key,obj[key]);
+// }
 
-//break
-for(let i = 1; i <= 10; i++){
-    if(i == 5){
-        break;
-    }
-    console.log(i);
-}
+// //break
+// for(let i = 1; i <= 10; i++){
+//     if(i == 5){
+//         break;
+//     }
+//     console.log(i);
+// }
 
-//continue
-for(let i = 1; i <= 10; i++){
-    if(i == 5){
-        continue;
-    }
-    console.log(i);
-}
+// //continue
+// for(let i = 1; i <= 10; i++){
+//     if(i == 5){
+//         continue;
+//     }
+//     console.log(i);
+// }
 
-//functions
-function greet(){
-    console.log("Hello");
-}
-greet();
+// //functions
+// function greet(){
+//     console.log("Hello");
+// }
+// greet();
 
-function add(a,b){
-    return a+b;
-}
-console.log(add(10,20));
+// function add(a,b){
+//     return a+b;
+// }
+// console.log(add(10,20));
 
-function sub(a,b){
-    return a-b;
-}
-console.log(sub(20,10));
+// function sub(a,b){
+//     return a-b;
+// }
+// console.log(sub(20,10));
 
-function mul(a,b){
-    return a*b;
-}
-console.log(mul(10,20));
+// function mul(a,b){
+//     return a*b;
+// }
+// console.log(mul(10,20));
 
-function div(a,b){
-    return a/b;
-}
-console.log(div(20,10));
+// function div(a,b){
+//     return a/b;
+// }
+// console.log(div(20,10));
 
-//for loop
-function table(num){
-    for(let i = 1; i <= 10; i++){
-        console.log(num*i);
-    }
-}
-table(5);
+// //for loop
+// function table(num){
+//     for(let i = 1; i <= 10; i++){
+//         console.log(num*i);
+//     }
+// }
+// table(5);
+
