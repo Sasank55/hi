@@ -52,16 +52,52 @@
 // console.log(test(5,6));
 
 // //implicit return and explicit return   // //
-function test(a,b){
-    return a+b;
+// function test(a,b){
+//     return a+b;
+// }
+// console.log(test(4,5));
+
+// var test = (a,b)=> a+b;
+// console.log(test(4,5));
+
+// let y = (a,b)=> a+b;
+// console.log(y(10,100));
+
+//write a  java script porgram to find the pattern of the given 
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+
+//use for loop , nested  loop , coordinate
+
+for(let i = 1; i <= 5; i++) {
+    let str = "";
+    for (let j = 1; j <= 5; j++) {
+        str += "* ";
+    }
+    console.log(str);
 }
-console.log(test(4,5));
 
-var test = (a,b)=> a+b;
-console.log(test(4,5));
 
-let y = (a,b)=> a+b;
-console.log(y(10,100));
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+for(let i = 1; i <= 5; i++) {
+    let str = "";
+    for (let j = 1; j <= i; j++) {
+        str += "* ";
+    }
+    console.log(str);
+}
+
+
+
+
 
 
 
